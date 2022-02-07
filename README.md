@@ -1,5 +1,5 @@
 
-# About Ninja HR Course (Laravel Project Base Tutorial)
+# About MagicPay Course (Laravel Project Base Tutorial)
 
 
 Magic Pay is laravel base project. It includes user management ,wallet management and money transfer.
