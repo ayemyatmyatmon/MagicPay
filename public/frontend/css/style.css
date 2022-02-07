@@ -1,0 +1,245 @@
+body{
+    background:#EDEDf5;
+
+}
+.card{
+    border-radius:10px;
+}
+.auth-form{
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3);
+    border:none;
+    border-radius:10px;
+}
+
+.auth-form a{
+    text-decoration: none;
+    margin-top:15px;
+    color:#333;
+}
+.auth-form a:hover{
+    color:#73F340;
+    transition: .3s;
+}
+.auth-form button{
+    padding:12px;
+}
+.btn-theme{
+    background:#73F340;
+}
+/* ------------Header Menu------ */
+.header-menu{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    background:#fff;
+    z-index: 999;
+}
+.header-menu a{
+    display: block;
+    color:#333;
+    text-decoration:none;
+
+
+}
+.header-menu a:hover{
+    color:#73F340;
+    transition:.3s;
+}
+.header-menu a i{
+    font-size:20px;
+}
+/* ----------Profile------------ */
+.profile img{
+    margin-top:75px;
+    border-radius:100%;
+    width:80px;
+    height:80px;
+    padding:5px;
+    border:1px solid #fff;
+    background:#fff;
+}
+.profile .card{
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+    border:none;
+    border-radius:10px;
+
+}
+.profile a{
+    text-decoration: none;
+    color:#333;
+}
+.profile a:hover{
+    color:#73F340;
+}
+.swal2-title{
+    font-size:20px !important;
+}
+
+.swal2-styled.swal2-confirm{
+    background:#73F340 !important;
+}
+
+/* ------------Bottom Menu--------- */
+.bottom-menu{
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    background:#fff;
+    z-index: 999;
+}
+.bottom-menu a{
+    display: block;
+    color:#333;
+    text-decoration:none;
+
+
+}
+.bottom-menu a:hover{
+    color:#73F340;
+    transition:.3s;
+}
+.bottom-menu i{
+    font-size: 18px;
+}
+.qrcode{
+    width:60px;
+    height:60px;
+    border-radius: 100%;
+    background:#EDEDf5;
+    position: fixed;
+    bottom:50px;
+    right:0;
+    left:0;
+    margin:0 auto;
+}
+.qrcode .inside{
+    width: 52px;
+    height: 52px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 100%;
+    animation: qrcode 5s infinite;
+}
+@keyframes qrcode{
+    0%{
+        box-shadow: 0 0 -10px #73F340;
+    }
+    40%{
+        box-shadow: 0 0 10px #73F340;
+    }
+    60%{
+        box-shadow: 0 0 15px #73F340;
+    }
+    100%{
+        box-shadow: 0 0 -10px #73F340;
+    }
+}
+/* ---------Update Password------ */
+.updatepassword{
+    margin-top:70px !important;
+}
+.updatepassword .card{
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+    border:none;
+    border-radius:10px;
+}
+.updatepassword img{
+    width:200px;
+    height:200px;
+}
+/* ------------Wallet------------- */
+
+.wallet{
+    margin-top:100px;
+}
+.wallet .card{
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+    border:none;
+    border-radius:10px;
+    background:#73F340;
+    color:#fff;
+    padding:20px;
+}
+
+.wallet span{
+    font-size:14px;
+    font-weight: 600;
+    text-transform: uppercase ;
+}
+.wallet h5{
+    font-size:19px;
+
+}
+/* ------------HomePage----- */
+.home{
+    margin-top:32px;
+
+}
+.shortcut-box{
+    border-radius: 10px;
+}
+.shortcut-box img{
+    width:25px;
+    height:25px;
+
+}
+.function-box img{
+    width:25px;
+    height:25px;
+    margin-right:10px;
+}
+.function-box a{
+    text-decoration: none;
+    color:#333;
+}
+/* -----------Transfer------- */
+.transfer{
+    margin-top:100px;
+    border-radius:10px;
+}
+.transferconfirmation{
+    margin-top:120px;
+    border-radius:10px;
+
+}
+/* ----------Transaction------- */
+.transaction{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.transaction a{
+    text-decoration: none;
+    color:#333;
+}
+.transactiondetails{
+    margin-top:100px;
+    margin-bottom: 100px;
+
+}
+
+.transactiondetails img{
+    width:80px;
+    height:80px;
+}
+/* -----------received qr-------- */
+.receivedqr{
+    margin-top:120px;
+}
+.receivedqr img{
+    width:180px;
+}
+
+/* ----------Notification---------- */
+.notification a{
+    text-decoration: none;
+    color:#333;
+}
+.unreadnoti {
+    top: 3px;
+    position: absolute;
+    padding: 3px;
+}

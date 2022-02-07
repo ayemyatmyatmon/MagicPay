@@ -1,0 +1,31 @@
+.theme{
+    background:#73F340;
+}
+
+
+
+
+
+/* -------Header-------- */
+.app-page-title{
+    padding:15px !important;
+}
+
+.icon a{
+    padding:4px;
+    font-size:18px;
+}
+.icon a:hover{
+    background:#f5f5f5;
+    border-radius:5px;
+}
+
+
+/* -----sidebar----- */
+.transactionicon{
+    font-size: 18px;
+    right: auto;
+    left: 12px;
+    margin-top: 10px;
+    position: absolute;
+}
