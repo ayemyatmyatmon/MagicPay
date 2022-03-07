@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title','Scan & Pay')
+@section('title', __('messages.scan-pay'))
 @section('content')
 <div class="container receivedqr d-flex justify-content-center ">
     <div class="col-md-8 " style="padding:0">
@@ -44,6 +44,7 @@
 @endsection
 @section('scripts')
 <script src="{{asset('frontend/js/qr-scanner.umd.min.js')}}"></script>
+
 <script>
     $(document).ready(function(){
             var videoElem=document.getElementById('scanner');

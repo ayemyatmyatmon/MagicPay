@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title','HomePage')
+@section('title', __('messages.home'))
 @section('content')
 <div class="container">
     <div class="home ">
@@ -19,7 +19,7 @@
                             <a href="{{url('/scan-and-pay')}}" style="text-decoration: none;color:#333;">
                                 <div class="card-body p-2">
                                     <img src="{{asset('frontend/img/scan.png')}}">
-                                    <span>@lang('messages.scan-pay')</span>
+                                    <span>@lang('messages.scan')</span>
                                 </div>
                             </a>
 

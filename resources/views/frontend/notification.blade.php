@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title','Notification')
+@section('title', __('messages.notification'))
 @section('content')
 <div class="container notification">
     <div style="margin-top:100px">

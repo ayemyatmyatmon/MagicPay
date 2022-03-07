@@ -3,6 +3,8 @@
 
 return [
     'home'=>'Home',
+    'notification'=>'Notification',
+
     'wallet'=>'Wallet',
     'transaction'=>'Transaction',
     'profile'=>'Profile',

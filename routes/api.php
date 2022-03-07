@@ -20,8 +20,10 @@ Route::namespace('Api')->group(function(){
     Route::middleware('auth:api')->group(function(){
         Route::post('/logout','AuthController@logout');
         Route::get('profile','PageController@profile');
+        
         Route::get('transaction','PageController@transaction');
         Route::get('transaction/{trx_id}','PageController@transactionDetail');
+
         Route::get('notification','PageController@notification');
         Route::get('notification/{id}','PageController@notificationDetail');
         Route::get('toAccountVerify','PageController@toAccountVerify');

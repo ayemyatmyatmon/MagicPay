@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title','Wallet')
+@section('title', __('messages.wallet'))
 @section('content')
 <div class="d-flex justify-content-center wallet">
     <div class="col-md-8 ">
